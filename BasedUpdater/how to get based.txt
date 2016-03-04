@@ -1,0 +1,17 @@
+- wait for connections
+= connect
+- send number of songs that are available 
+= options for check updates, repair songs/check all/redownload, download specifics, send data about selections always send 		a static file that is either filled or not filled
+- send back number of files expected
+= send ack
+- send album name, if they want it, also put organization options
+= make folder, check for error, if error send nack, if all good send ack
+- send file name
+= send file name as ack
+- send file 
+= write file by checking whether write all is on, or ask user if the file is already there with options for repeat for all, 	send ack
+- repeat last steps until you are done
+
+
+
+
